@@ -1,0 +1,1 @@
+net stop wuauserv & net stop bits & net stop cryptsvc & ren C:\Windows\System32\catroot2 catroot2.old & net start cryptsvc & net start bits & net start wuauserv & sfc /scannow
